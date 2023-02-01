@@ -35,5 +35,5 @@ car with license plate TUV03473 is parked at spot no 20
 No Of Available Slots : 12
 
 
-JSON File with name parking_lot.json was saved at C:\VSPROGRAMS\newprograms\TRIALMETHODS\the_parkinglot_project\
+JSON File with name parking_lot.json was saved at *\the_parkinglot_project\
 
