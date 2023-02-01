@@ -34,7 +34,7 @@ class parking_lot:
                 taken_ctr += 1
                 if generatejson:
                     string += f'"slot{i+1}" : "{self.aval_slots[i].license_plate}", '
-                print(f'car with license plate {self.aval_slots[i].license_plate} is parked at spot no {i+1}')
+                print(f'\tcar with license plate {self.aval_slots[i].license_plate} is parked at spot no {i+1}')
             else:
                 if generatejson:
                     string += f'"slot{i+1}" : "EMPTY", '
@@ -54,7 +54,9 @@ class parking_lot:
 
 class car:
     def __init__(self, license_plate):
-        self.license_plate = license_plate                          # setting license plate parameter
+        if len(license_plate) > 7:
+            print('\tWarning: License Plate Can Only Be 7 Digits')
+        self.license_plate = license_plate[:7]                      # setting license plate parameter
         self.parking_spot = None                                    # optional (can be used for indexing using number plate in future)
     
     def __str__(self):                                              # overriding default magic method to print licence plate while string conversion
