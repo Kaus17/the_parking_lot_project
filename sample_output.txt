@@ -1,0 +1,39 @@
+Car With License Plate ABC1323 Parked Successfully at Spot No : 18
+
+Car With License Plate DEF4564 Parked Successfully at Spot No : 8     
+
+
+Could Not Park the Car HIJ7486 at Spot 8
+        Reason Parking Spot is taken by car with license plate DEF4564
+
+Car With License Plate HIJ7486 Parked Successfully at Spot No : 15    
+
+Car With License Plate KLM7392 Parked Successfully at Spot No : 4     
+
+Car With License Plate NOP0938 Parked Successfully at Spot No : 17    
+
+Car With License Plate QRS9843 Parked Successfully at Spot No : 11    
+
+Car With License Plate TUV03473 Parked Successfully at Spot No : 0    
+
+Car With License Plate WXYZ830 Parked Successfully at Spot No : 1     
+
+
+
+                 Current Parking Lot Status
+
+
+car with license plate WXYZ830 is parked at spot no 1
+car with license plate KLM7392 is parked at spot no 4
+car with license plate DEF4564 is parked at spot no 8
+car with license plate QRS9843 is parked at spot no 11
+car with license plate HIJ7486 is parked at spot no 15
+car with license plate NOP0938 is parked at spot no 17
+car with license plate ABC1323 is parked at spot no 18
+car with license plate TUV03473 is parked at spot no 20
+
+No Of Available Slots : 12
+
+
+JSON File with name parking_lot.json was saved at C:\VSPROGRAMS\newprograms\TRIALMETHODS\the_parkinglot_project\
+
